@@ -32,26 +32,17 @@ the commit logs.
 
 ## Introduction
 
-This assignment requires a programmer to implement and test the methods in a
-`DoublyLinkedList` More details about the purpose and implementation of the
-`DoublyLinkedList` are available in Section 3.4 of the textbook. Also, you can
-learn more about iterative algorithms by reviewing Section 1.5.2. Please note
-that this assignment will also require you to read and use Java classes that
-contain a test suite. Specifically, the programmer is responsible for learning
-how to run and extend a test suite written in the JUnit testing framework, as
-explained in Section 1.9. As verified by
-[Checkstyle](https://github.com/checkstyle/checkstyle), the source code for all
-of the Java classes must adhere to all of the requirements in the [Google Java
-Style Guide](https://google.github.io/styleguide/javaguide.html).
-
-The source code in the submitted Java source code files must also pass
-additional tests set by the [GatorGrader
-tool](https://github.com/gkapfham/gatorgrader). For instance, GatorGrader will
-check to ensure that `DoublyLinkedList` has `println` statements that can
-produce the output from running the `removeLast` method. GatorGrader will also
-run a JUnit test suite that will perform many checks on your implementation of
-the `DoublyLinkedList`. More details about the GatorGrader checks are included
-later in this document and in the assignment sheet.
+This assignment requires a programmer to understand the methods in a `WordCount`
+program that is inspired by the source code segment in Section 10.1.2 of the
+textbook. With that said, the provided source code combines the `Tree` and and
+`HashMap` data structures to implement a more comprehensive solution. Your job
+for this assignment is to run the program and study its output. Then, you are
+responsible for adding comments to the source code that demonstrate you
+understand how the `WordCount` uses both a `Tree` and a `HashMap` to produce
+the expected output. Finally, as verified by
+[Checkstyle](https://github.com/checkstyle/checkstyle), the source code for
+all of the Java classes must adhere to all of the requirements in the [Google
+Java Style Guide](https://google.github.io/styleguide/javaguide.html).
 
 When you use the `git commit` command to transfer your source code to your
 GitHub repository, [Travis CI](https://travis-ci.com/) will initialize a build
@@ -80,12 +71,10 @@ Projects on GitHub](https://guides.github.com/features/wikis/). Each of these
 guides will help you to understand how to use both [GitHub](http://github.com) and
 [GitHub Classroom](https://classroom.github.com/).
 
-To do well on this assignment, you should also read Section 1.5.2 to learn
-more about iteration constructs. Please read all of the content and study
-all of the technical diagrams and source code segments in Section 3.2
-through 3.6. Finally, please see the course instructor or one of the
-teaching assistants or tutors if you have questions about any of these
-reading assignments.
+Please read all of the content and study all of the technical diagrams and
+source code segments in Sections 8.1 through 8.3 and 10.1 through 10.2. Finally,
+please see the course instructor or one of the teaching assistants or tutors if
+you have questions about any of these reading assignments.
 
 ## Commands
 
@@ -110,8 +99,6 @@ program's source code if it is a correct program) the program using the command
 - `gradle check`: check the quality of the code using Checkstyle
 - `gradle build`: create the bytecode from the Java source code
 - `gradle run`: run the Java program in the command-line
-- `gradle cleanTest`: clean the JUnit test suite of derived files
-- `gradle test`: run the JUnit test suite and produce report
 - `gradle tasks`: display details about the Gradle system
 
 To run one of these commands, you must be in the home directory for this
@@ -127,16 +114,13 @@ typing `cd ..` and then continuing your work.
 
 ## Output
 
-Typing the command `gradle run` in the terminal window produces the following
-output for the instructor's version of `labeight.experiment.Experiment`.
-Critically, the timing values and order of growth ratios may be different when
-you run the experiment on your own computer. It is also likely that you will
-see some atypical order-of-growth ratios. Why is that the case? Finally, please
-note that this practical assignment invites you to run a comprehensive JUnit
-test suite for the `DoublyLinkedList`. While this test suite does not produce
-any output, you should carefully inspect its tests so that you understand their
-strategy. In particular, it is critically important that you study and
-understand the purpose and behavior every test case in `TestDoublyLinkedList`.
+Instead of running an experiment, the `WordCount` program reads in a file and
+then uses a combination of the `Tree` and `HashMap` data structures to analyze
+the words that are in the file. The following output illustrates for the
+`HashMap` stores and can output the key-value pairs associated with the words
+and their word-count frequencies. Instead of writing code to produce this
+output, the assignment requires you to add comments to the source code to
+demonstrate that you understand how the program works.
 
 ```
 Reading and tracking the words in the file ...
@@ -167,14 +151,12 @@ for=2, given=2, if=2, key=2, of=2, to=2, associated=3, is=3, null=3, or=3, a=4,
 
 ## Checking
 
-In addition to making the checks that are mentioned in the introduction to this
-document, your final submission must meet the following requirements.
-
-- `DoublyLinkedList.java` contains three `println`s to produce the program's output.
-- `DoublyLinkedList.java` declares a `main` method as `public static void main`.
-- The `DoublyLinkedList` has methods that pass the provided JUnit test suite.
-- Consists of at least three commits beyond the commit number when starting the
-  assignment.
+Since this assignment asks you to write comments to explain an existing source
+code segment, the checks for the practical will be performed directly by the
+course instructor. You will receive the checkmark grade for this practical
+assignment if your source code builds correctly, it produces the same output as
+is given in the assignment sheet, and it has thoughtful comments that correctly
+explains how each source code segment works.
 
 ## Updates
 

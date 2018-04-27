@@ -154,17 +154,6 @@ if [ "$CHECK" = true ]; then
   # run the gatorgrader.py program to run the checks
   printf "%s\n" "${blu}Starting to check with GatorGrader...${end}"
   # ADD ADDITIONAL CALLS TO BOTH gatorgrader.py and determine_exit_code HERE
-  # --> GatorGrader CHECK: at least 3 "println(" fragment exists in the code
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalseven/list \
-                                     --checkfiles DoublyLinkedList.java --fragments "println(" --fragmentcounts 3
-  determine_exit_code $?
-  # --> GatorGrader CHECK: at least 1 "public static void" fragment exists in the code
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalseven/list \
-                                     --checkfiles DoublyLinkedList.java --fragments "public static void main" --fragmentcounts 1
-  determine_exit_code $?
-  # --> GatorGrader CHECK: the repository contains at least three beyond current commit count (must update in starter)
-  python3 gatorgrader/gatorgrader.py --nowelcome --commits 28
-  determine_exit_code $?
   echo ""
   printf "%s\n" "${blu}... Finished checking with GatorGrader${end}"
 

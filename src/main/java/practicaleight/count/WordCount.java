@@ -32,6 +32,8 @@ import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
+// TODO: Add comments to the source code to explain how it works!
+
 /** A program that counts words in a document, printing the the key value pairs. */
 public class WordCount {
 
@@ -52,8 +54,6 @@ public class WordCount {
     sortedEntries.addAll(map.entrySet());
     return sortedEntries;
   }
-
-  // TODO: Add comments to the source code to explain how it works!
 
   /** The main method for the WordCount program. */
   public static void main(String[] args) {

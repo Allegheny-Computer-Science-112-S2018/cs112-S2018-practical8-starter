@@ -38,8 +38,8 @@ textbook. With that said, the provided source code combines the `Tree` and and
 `HashMap` data structures to implement a more comprehensive solution. Your job
 for this assignment is to run the program and study its output. Then, you are
 responsible for adding comments to the source code that demonstrate you
-understand how the `WordCount` uses both a `Tree` and a `HashMap` to produce
-the expected output. Finally, as verified by
+understand how the `WordCount` program uses both a `Tree` and a `HashMap` to
+produce the expected output. Finally, as verified by
 [Checkstyle](https://github.com/checkstyle/checkstyle), the source code for
 all of the Java classes must adhere to all of the requirements in the [Google
 Java Style Guide](https://google.github.io/styleguide/javaguide.html).
@@ -116,11 +116,11 @@ typing `cd ..` and then continuing your work.
 
 Instead of running an experiment, the `WordCount` program reads in a file and
 then uses a combination of the `Tree` and `HashMap` data structures to analyze
-the words that are in the file. The following output illustrates for the
-`HashMap` stores and can output the key-value pairs associated with the words
-and their word-count frequencies. Instead of writing code to produce this
-output, the assignment requires you to add comments to the source code to
-demonstrate that you understand how the program works.
+the words that are in the file. The following output illustrates how the
+specialize type of `HashMap` stores and outputs the key-value pairs associated
+with the words and their word-count frequencies. Instead of asking you to write
+code to produce this output, the assignment requires you to add comments to the
+source code to demonstrate that you understand how the program works.
 
 ```
 Reading and tracking the words in the file ...
@@ -156,7 +156,7 @@ code segment, the checks for the practical will be performed directly by the
 course instructor. You will receive the checkmark grade for this practical
 assignment if your source code builds correctly, it produces the same output as
 is given in the assignment sheet, and it has thoughtful comments that correctly
-explains how each source code segment works.
+explain how each source code segment works.
 
 ## Updates
 

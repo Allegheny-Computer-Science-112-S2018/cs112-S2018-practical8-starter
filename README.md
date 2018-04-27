@@ -20,10 +20,10 @@ PROBLEMS?
 
 -->
 
-# cs112-S2018-practical7-starter
+# cs112-S2018-practical8-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the starter for Practical 7 in Computer Science 112. Since
+repository contains the starter for Practical 8 in Computer Science 112. Since
 the Travis builds for this repository will initially fail (as evidenced by a
 red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
 programmer is responsible for completing all of the steps needed to satisfy the
@@ -139,11 +139,30 @@ strategy. In particular, it is critically important that you study and
 understand the purpose and behavior every test case in `TestDoublyLinkedList`.
 
 ```
-DoublyLinkedList Before removeLast:
-(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+Reading and tracking the words in the file ...
+... Finished reading and tracking the words in the file.
 
-DoublyLinkedList After removeLast:
-(0, 1, 2, 3, 4, 5, 6, 7, 8)
+Analysis of the words in the file ...
+
+(key, value) pairs sorted by key:
+
+{a=4, already=1, append=1, associated=3, associates=1, be=1, combining=1,
+create=1, either=1, example=1, for=2, function=1, given=2, if=2, is=3, it=1,
+key=2, mapped=1, mapping=1, may=1, method=1, msg=1, multiple=1, non=1, not=1,
+null=3, of=2, or=3, otherwise=1, remapping=1, removes=1, replaces=1, result=1,
+results=1, specified=1, string=1, the=6, this=1, to=2, use=1, value=4, values=1,
+when=1, with=4}
+
+(key, value) pairs sorted by value and key:
+
+[already=1, append=1, associates=1, be=1, combining=1, create=1, either=1,
+example=1, function=1, it=1, mapped=1, mapping=1, may=1, method=1, msg=1,
+multiple=1, non=1, not=1, otherwise=1, remapping=1, removes=1, replaces=1,
+result=1, results=1, specified=1, string=1, this=1, use=1, values=1, when=1,
+for=2, given=2, if=2, key=2, of=2, to=2, associated=3, is=3, null=3, or=3, a=4,
+  value=4, with=4, the=6]
+
+... Finished the analysis of the words in the file.
 ```
 
 ## Checking
@@ -164,7 +183,7 @@ you would like to receive these updates, then you can type this command in the
 main directory for this assignment:
 
 ```
-./gatorgrader.sh --update git@github.com:Allegheny-Computer-Science-112-S2018/cs112-S2018-practical7-starter.git
+./gatorgrader.sh --update git@github.com:Allegheny-Computer-Science-112-S2018/cs112-S2018-practical8-starter.git
 ```
 
 You should only need to type this command once; typing the command additional
@@ -206,8 +225,8 @@ developed for the following software and versions:
 ## Problems
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [Computer Science 112 Practical 7
-Starter](https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-practical7-starter)
+you can go to the [Computer Science 112 Practical 8
+Starter](https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-practical8-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/gkapfham/gatorgrader) and the way that it checks you

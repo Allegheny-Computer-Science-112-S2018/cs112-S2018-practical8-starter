@@ -39,7 +39,11 @@ textbook. With that said, the provided source code combines the `Tree` and and
 for this assignment is to run the program and study its output. Then, you are
 responsible for adding comments to the source code that demonstrate you
 understand how the `WordCount` program uses both a `Tree` and a `HashMap` to
-produce the expected output. Finally, as verified by
+produce the expected output. Students who are interested in doing so are
+encourage to write extra Java methods that can, for instance, print out
+the word that is most frequently found in the input file. Additionally, you
+are invited to run the `WordCount` program with a different input file.
+Finally, as verified by
 [Checkstyle](https://github.com/checkstyle/checkstyle), the source code for
 all of the Java classes must adhere to all of the requirements in the [Google
 Java Style Guide](https://google.github.io/styleguide/javaguide.html).
